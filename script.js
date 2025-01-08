@@ -1,2 +1,1 @@
-prompt("Type..!!");
-alert("Ssup?");
+
