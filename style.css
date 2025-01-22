@@ -42,6 +42,12 @@ h1 {
 .about-section-content {
   margin: 30px;
 }
+.about-section-content h3 {
+  font-size: 24px;
+  font-family: var(--supporting-font);
+  font-weight: bold;
+  line-height: 1.5;
+}
 .btn-branding {
   background: #6836bc;
   border-radius: 8px;
