@@ -27,6 +27,21 @@ h1 {
   font-size: 24px;
   line-height: 2;
 }
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-family: var(--supporting-font);
+  font-size: 18px;
+  font-weight: bold;
+}
+.about-section-content {
+  margin: 30px;
+}
 .btn-branding {
   background: #6836bc;
   border-radius: 8px;
@@ -59,7 +74,7 @@ p {
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
-    line-height: 1.5;
+    line-height: 56px;
   }
   h2 {
     font-size: 42px;
@@ -71,5 +86,9 @@ p {
   .project-outline {
     padding: 0;
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
