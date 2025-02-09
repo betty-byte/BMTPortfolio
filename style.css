@@ -127,4 +127,47 @@ p {
   nav a {
     font-size: 12px;
   }
+  h4 {
+    font-family: var(--main-font);
+    font-size: 18px;
+  }
+}
+footer {
+  margin: 60px 0;
+}
+.contact-box {
+  background: #eeebf1;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+.contact-box p {
+  margin: 0 auto;
+}
+h4 {
+  font-family: var(--main-font);
+  font-size: 30px;
+}
+
+.email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  font-family: var(--supporting-font);
+}
+.email-link:hover {
+  color: var(--main-colour);
+}
+.social-links a {
+  margin: 0 20px;
+  color: var(--main-colour);
+  font-size: 30px;
+  background: #dcd0f0;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: all 100ms ease-in-out;
+}
+.social-links a:hover {
+  color: white;
+  background: var(--main-colour);
 }
